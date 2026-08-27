@@ -1,4 +1,8 @@
-# 🎵 Elixir — The Sound Dose
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Headphone.png" alt="Headphone" width="45" height="45" /> Elixir 
+
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF5F1F&center=true&vCenter=true&width=500&lines=The+Sound+Dose;Privacy-First+Audio+Engine;Offline+Music%2C+Reimagined" alt="Typing SVG" /></a>
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter">
@@ -18,18 +22,7 @@ Elixir goes far beyond simple playback. It features automated metadata cleaning,
 
 ---
 
-## 📑 Table of Contents
-
-1. [Core Features In Detail](#-core-features-in-detail)
-2. [Deep Dive: System Architecture](#-deep-dive-system-architecture)
-3. [Deep Dive: The Data Layer (SQLite)](#-deep-dive-the-data-layer-sqlite)
-4. [UI & User Experience Flow](#-ui--user-experience-flow)
-5. [Audio Processing & Playback Engine](#-audio-processing--playback-engine)
-6. [Releases & App Availability](#-releases--app-availability)
-7. [Development Roadmap](#-development-roadmap)
-8. [Project Structure Breakdown](#-project-structure-breakdown)
-
----
+<img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Musical%20Notes.png" alt="Musical Notes" width="100" />
 
 ## ✨ Core Features In Detail
 
@@ -75,10 +68,16 @@ Elixir is built on a highly decoupled, service-oriented architecture, ensuring t
 
 Instead of relying solely on the device's default MediaStore (which can be slow and limited), Elixir builds its own relational database using `sqflite`.
 
+<details>
+<summary><b>Click to expand Database details</b></summary>
+<br>
+
 *   **Migration System**: The database utilizes a robust migration system (currently at schema version 8) to seamlessly upgrade tables without losing user data.
 *   **Track Metadata**: Stores both the `raw_title` (from the file) and the `clean_title` (fetched from APIs or manually edited by the user). It also caches the local paths to downloaded high-res album banners to prevent redundant network calls.
 *   **Analytics Tracking**: Every time a song finishes, the `DatabaseService` logs the timestamp and the exact duration played, allowing the app to calculate total monthly listening time and determine top artists.
 *   **Custom Playlists**: Supports creating, editing, and reordering custom user playlists, stored entirely locally and persistently.
+
+</details>
 
 ---
 
@@ -86,12 +85,18 @@ Instead of relying solely on the device's default MediaStore (which can be slow 
 
 Elixir strictly adheres to a premium dark-theme aesthetic (`AppTheme.darkTheme`), highlighted by its signature neon orange accent (`#FF5F1F`), designed specifically to reduce eye strain in low-light environments.
 
+<details>
+<summary><b>Click to expand UI Design details</b></summary>
+<br>
+
 *   **The Rotating Vinyl Navigation**: 
     The custom bottom navigation bar breaks traditional design by featuring an oversized, rotating vinyl record in the center. When music is playing, the vinyl rotates; when paused, it stops. Tapping it seamlessly expands the `NowPlayingPage`.
 *   **Now Playing Experience**: 
     Features an immersive, full-screen playback view. It includes animated, staggered equalizer bars that react to playback state, gesture-based scrubbing (swipe left/right to change tracks), and a beautiful glass-morphism background that blurs the album art.
 *   **Manual Track Editor**: 
-    If the automated sync fails, users can open the "Edit Track Sheet." Here, they can manually update the title/artist, paste in their own lyrics, or upload a custom cover image directly from their gallery.
+    If the automated sync fails, users can open the "Edit Track Sheet." Here, they can manually update the title/artist, paste in their own lyrics, or upload a custom cover image directly from their gallery or via a targeted in-app web fetch.
+
+</details>
 
 ---
 
@@ -99,9 +104,17 @@ Elixir strictly adheres to a premium dark-theme aesthetic (`AppTheme.darkTheme`)
 
 At the core of Elixir is the `just_audio` and `audio_service` combination, strictly configured to bypass Android's Scoped Storage limitations by utilizing MediaStore Content URIs (`content://media/external/audio/...`).
 
+<details>
+<summary><b>Click to expand Audio Engine details</b></summary>
+<br>
+
 *   **5-Band Equalizer**: Users have access to a fully functional Equalizer (60Hz, 230Hz, 910Hz, 3.6kHz, 14kHz) with pre-built presets (Bass Boost, Treble Boost, Vocal, Rock) and custom manual control.
 *   **Gapless Playback & Crossfade**: The audio engine supports true gapless playback for seamless album transitions. Users can also configure a custom crossfade duration (0 to 12 seconds) in the settings.
+*   **Queue Service Architecture**: Implements a dedicated `_loadAndPlay` mechanism that buffers the next track dynamically, allowing track switching without destroying the background media handler, ensuring lock-screen notifications remain stable.
 *   **Volume Normalization**: Built-in volume normalization ensures that a quiet acoustic track followed by a loud EDM track play at a consistent perceived volume level.
+*   **Streaming Quality Fallbacks**: When fetching previews or streams, Elixir allows setting bitrates from low (96kbps) to very high (320kbps).
+
+</details>
 
 ---
 
@@ -167,7 +180,16 @@ lib/
 
 ---
 
-<div align="center">
-  <b>Built with passion for music and beautiful code.</b><br>
-  <i>Designed for those who want their sound dose, locally and privately.</i>
-</div>
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<br/>
+
+## 👨‍💻 Author
+
+<h1 align="center">
+  🍁 Made by <span style="color: #FF0055;">M</span><span style="color: #00E5FF;">A</span> 🍁
+</h1>
