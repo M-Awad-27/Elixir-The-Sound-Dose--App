@@ -1,4 +1,4 @@
-# <img src="logo.jpg" alt="Elixir Logo" width="55" height="55" align="center" /> Elixir — The Sound Dose
+# <img src="logo.jpeg" alt="Elixir Logo" width="55" height="55" align="center" style="border-radius: 12px;" /> Elixir — The Sound Dose
 
 <div align="center">
   <br>
