@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Headphone.png" alt="Headphone" width="55" height="55" align="center" /> Elixir: The Sound Dose
+# <img src="logo.jpg" alt="Elixir Logo" width="55" height="55" align="center" /> Elixir — The Sound Dose
 
 <div align="center">
   <br>
