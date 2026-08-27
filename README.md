@@ -21,6 +21,24 @@
 > [!IMPORTANT]
 > **Repository Notice:** This is the public showcase repository for Elixir. It contains the project's documentation, architecture overview, and UI previews. The actual source code for Elixir is maintained in a separate, proprietary private repository to protect the intellectual property and core engine algorithms.
 
+<br>
+
+<div align="center">
+  <img src="previews/1.jpeg" width="19%" />
+  <img src="previews/2.jpeg" width="19%" />
+  <img src="previews/3.jpeg" width="19%" />
+  <img src="previews/4.jpeg" width="19%" />
+  <img src="previews/5.jpeg" width="19%" />
+</div>
+
+<br>
+<div align="center">
+  <img src="previews/6.jpeg" width="19%" />
+  <img src="previews/7.jpeg" width="19%" />
+</div>
+
+<br>
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" alt="Sparkles" width="35" height="35" /> Introduction
 
 **Elixir** is a premium, privacy-first, offline-centric local music player built from the ground up with Flutter. 
