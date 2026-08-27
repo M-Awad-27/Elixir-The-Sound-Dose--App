@@ -21,7 +21,7 @@
 > [!IMPORTANT]
 > **Repository Notice:** This is the public showcase repository for Elixir. It contains the project's documentation, architecture overview, and UI previews. The actual source code for Elixir is maintained in a separate, proprietary private repository to protect the intellectual property and core engine algorithms.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sparkles.png" alt="Sparkles" width="35" height="35" /> Introduction
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" alt="Sparkles" width="35" height="35" /> Introduction
 
 **Elixir** is a premium, privacy-first, offline-centric local music player built from the ground up with Flutter. 
 
@@ -158,7 +158,7 @@ As the source code is maintained in a private repository to protect the applicat
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Map%20Of%20Japan.png" alt="Roadmap" width="35" height="35" /> Development Roadmap
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Map%20of%20Japan.png" alt="Roadmap" width="35" height="35" /> Development Roadmap
 
 Elixir is constantly evolving. Here is the structured roadmap detailing what has been achieved and what is coming next:
 
